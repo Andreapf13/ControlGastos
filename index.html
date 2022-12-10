@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <title>Control Gastos</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bungee+Shade&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=VT323&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DotGothic16&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik+Mono+One&display=swap" rel="stylesheet">
+
+<body>
+    <div class="resumenahorro">
+        <h2 class="money" > Ahorro Total: </h2>
+        <p class="money" id="tuAhorro">0€</p>
+     </div>
+    <main class="cuerpo">
+        <div class="alineacion1">
+
+            <h1 class="titulo">"No es privarte, es saber elegir" </h1>
+            
+        </div>
+           
+                <div class="seccionImagenes">
+                    <img class="ImagenEstadistica"
+                        src="mujer-plana-preocupada-tiene-lista-deudas-credito-facturas-vencidas-chica-leyendo-carta-agencia-cobro-sobre-problemas-financieros-prestamos-e-impuestos-no-pagados-concepto-calculo-pago-gastos_88138-805.webp"
+                        alt="ImagenAhorros">
+                </div>
+
+        
+        <div class="tabla">
+            <div class="cajaresumen">
+                <h2 class="titulocaja">Ingresos </h2>
+                <p class="numerosverdes" id="numerospositivos">0€</p>
+            </div>
+            <div class="cajaresumen">
+                <h2 class="titulocaja">Gastos</h2>
+                <p class="numerosrojos" id="numerosnegativos">0€</p>
+            </div>
+        </div>
+        <div class="middle">
+            <h2 class="titlejs"> Historial </h2>
+            <p class="historialcss" id="Historial"> </p>
+        </div>
+
+        <div class="inputype">
+            <h2 class="titlejs">Añadir nueva transacción</h2>
+        
+
+
+            <div>
+                <h4 class="concepto"> Concepto</h4>
+                <input class="casilla" type="text" id="inputConcept" placeholder="Añade concepto ...">
+            </div>
+            <div>
+                <h4 class="concepto"> Cantidad (negativo-gasto, positivo-ingreso) </h4>
+                <input class="casilla" type="text" id="inputQuantity" placeholder="Introduce cantidad ..." >
+            </div>
+        </div>
+        <div class="centerboton">
+            <button class="boton" id="button-add" onclick="limpiar()"> Añadir transacción </button>
+        </div>
+
+        <script src="./script.js"></script>
+    </main>
+</body>
+
+</html>

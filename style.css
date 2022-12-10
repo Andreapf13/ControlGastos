@@ -1,0 +1,193 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Old Standard TT', serif;
+  color:rgba(25, 12, 12, 0.5)
+
+}
+.cuerpo{
+    padding-left: 3%;
+    padding-right: 3%;
+}
+body{
+background-image: url(304d729edd77e82d16c3b9c5b557a137.jpeg);
+
+}
+.inputype{
+ text-align: center;
+}
+
+.boton{
+padding: 10px 40px;
+color: #f7f4f4;
+background-color: rgb(124, 124, 248);
+border-radius: 5px;
+font-size: 20px;
+border-color: rgba(243, 239, 239, 0.5);
+font-family: 'Abril Fatface', cursive;
+
+}
+.titulocaja{
+    font-size: 20px;
+    font-family: 'DotGothic16', sans-serif;
+}
+.centerboton{
+    text-align: center;
+ margin:5%;
+}
+.titulo{
+    font-size:50px;
+    color:  rgb(124, 124, 248);
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 3%;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+.numeroahorro{
+text-transform: uppercase;
+color:rgb(113, 98, 116);
+font-family: 'Abril Fatface', cursive;
+}
+.money{
+    font-size:  30px;
+    font-family: 'Bungee', cursive;
+}
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+.cajaresumen{
+    padding-right: 3%;
+
+}
+.historialcss{
+    font-size: 25px;
+ 
+ 
+}
+.numerosrojos{
+    font-family: 'DotGothic16', sans-serif;
+    color: rgb(239, 116, 116);
+    font-size: 20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.numerosverdes{
+    font-family: 'DotGothic16', sans-serif;
+    color:rgb(126, 158, 126);
+    font-size:20px;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+}
+.titlejs{
+   font-size: 27px;
+   font-family: 'Abril Fatface', cursive;
+   font-family: 'Bungee Shade', cursive;
+   color: rgba(6, 6, 6,);
+   margin-bottom: 20px;
+}
+
+.concepto{
+    font-size:15px;
+    font-family: 'DotGothic16', sans-serif;
+    color: rgba(30, 30, 39, 0.5);
+    margin-top: 30px;
+}
+
+.casilla{
+margin: 30px;
+padding: 10px;
+padding-right: 20%;
+font-size: 12px;
+border-color: rgba(0, 0, 255, .2);
+box-shadow: 2px 12px 2px 1px rgba(0, 0, 255, .2);
+font-family: 'DotGothic16', sans-serif;
+}
+.middle{
+    text-align: center;
+    margin-bottom: 5%;
+ 
+}
+.ImagenEstadistica{
+    width:25%;
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.seccionImagenes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.titleControlGastos{
+    display: flex;
+}
+
+
+.hucha{
+    width: 10%;
+}
+.cajaresumen{
+    background-color:rgba(255, 255, 255);
+    padding: 30px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 12px 2px 1px rgba(0, 0, 255, .2);
+    ;
+
+}
+
+.money{
+
+    font-size: 20px;
+    display: flex;
+    justify-content: right;
+    font-family: 'DotGothic16', sans-serif;
+    margin-right: 8px;
+}
+
+.resumenahorro{
+    margin-right: 30px;
+    float: right;
+
+}
+.newStyle{
+   
+    font-family: 'DotGothic16', sans-serif; 
+    font-size: 15px;
+    background-color:rgba(255, 255, 255, 0.6);
+    box-shadow: 2px 12px 2px 1px rgba(0, 0, 255, .2);
+    border-color: rgba(0, 0, 255, .2);
+    padding: 10px;
+    color: rgb(31, 30, 30);
+    margin: 0 auto;
+    width: 30%;
+    text-transform: uppercase;
+    margin-bottom: 25px;
+
+}
+.resumenahorro{
+font-family: 'DotGothic16', sans-serif;
+padding: 20px;
+font-size: 15px;
+background-color: #f7f4f4;
+display: flex;
+justify-content: right;
+margin-top: 10px;
+margin-bottom: 30px;
+border-radius: 5px;
+box-shadow: 2px 12px 2px 1px rgba(0, 0, 255, .2);
+}
